@@ -1,9 +1,9 @@
 (function() {
     'use strict';
     
-    angular.module('app').controller("AboutCtrl", 
+    angular.module('app').controller("HomeCtrl", 
     function($rootScope, $scope, $location) {
-        $scope.myname1 = "Reasey";
+        $scope.myname = "Welcome to my site";
       });
 
 })();
